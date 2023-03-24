@@ -7,7 +7,7 @@
 <br><br>
 
 
-This tooling is a crude prototype (can only beused by 1 user at the time currently) for the OOTxMM randomizer plando to generate the plando.json
+This tooling is a crude prototype (can only be used by 1 user at the time currently) for the OOTxMM randomizer plando to generate the plando.json
 
 here are some things you need to keep in mind:
 
