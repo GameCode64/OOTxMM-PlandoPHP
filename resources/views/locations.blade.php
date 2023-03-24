@@ -164,10 +164,70 @@
                     <td>
                         Welcome. This is just a crude way to make a plando for OOTxMM randomizer.<br>
                         There are some things you need to keep in mind: <br>
-                        <ul>
+			<ul>
+                            <li>
+                                <b>you can currently only use this plando with my branch untill it is implemented in the web interface</b><br>
+				<a href="https://github.com/GameCode64/MMOOTr/tree/plandov1" target="_blank">https://github.com/GameCode64/MMOOTr/tree/plandov1</a>
+				<ul>
+					<li>
+						You need to run the randomizer with the generated "plando.json" in its rootfolder. And create a "config.yml" file with the lines below (and change it accordingly to your <u>plando</u> and your whishes):<br>then run the randomizer with "npm run start:debug"
+						<div style="border: 1px #000000 solid; padding: 5px; width: 300px; margin: 0 auto;">
+							songs: anywhere
+							<br>goldSkulltulaTokens: anywhere
+							<br>housesSkulltulaTokens: anywhere
+							<br>mapCompassShuffle: ownDungeon
+							<br>smallKeyShuffle: overworld
+							<br>smallKeyShuffleHideout: overworld
+							<br>bossKeyShuffle: overworld
+							<br>townFairyShuffle: vanilla
+							<br>strayFairyShuffle: mixed
+							<br>ganonBossKey: removed
+							<br>dungeonRewardShuffle: anywhere
+							<br>cowShuffleOot: true
+							<br>cowShuffleMm: true
+							<br>shopShuffleOot: full
+							<br>shopShuffleMm: full
+							<br>shuffleMasterSword: true
+							<br>shuffleGerudoCard: true
+							<br>eggShuffle: true
+							<br>doorOfTime: open
+							<br>crossWarpOot: true
+							<br>crossWarpMm: adult
+							<br>erBoss: none
+							<br>erDungeons: none
+							<br>erSpiderHouses: false
+							<br>erMinorDungeons: false
+							<br>progressiveShieldsOot: separate
+							<br>progressiveSwordsOot: goron
+							<br>progressiveShieldsMm: start
+							<br>progressiveGoronLullaby: progressive
+							<br>fairyOcarinaMm: false
+							<br>shortHookshotMm: false
+							<br>sharedNutsSticks: false
+							<br>sharedBows: false
+							<br>sharedBombBags: false
+							<br>sharedMagic: false
+							<br>sharedMagicArrows: false
+							<br>sharedSongs: false
+							<br>sharedHookshot: false
+							<br>sharedLens: false
+							<br>sharedOcarina: false
+							<br>sharedMasks: false
+							<br>sharedWallets: false
+							<br>sharedHealth: false
+							<br>csmc: true
+							<br>logic: allLocations
+							<br>plando: true
+							<br>generateSpoilerLog: true							
+							<br>startingItems: []#this is to prevent the debug starter items
+
+						</div>
+					</li>
+				</ul>
+                            </li>
                             <li>
                                 this plandomizer <b><u>does not</u></b> keep track of logic. So you are responsible to
-                                make the seed work!
+                                make the seed work!<br> <b>It is possible to generate logic around, if you are keeping logic in the plando!</b>
                             </li>
                             <li>
                                 Entrances plando is <b><u>not</u></b> available (yet)
@@ -180,8 +240,8 @@
                             </li>
                             <li>
                                 This site might change apearance and functionality.
-                            </li>
-                        </ul>
+			    </li>
+     			</ul>
                         <br>And make some fun seeds😁!
                         <br>(Plando and this locations selector has been prototyped by me GameCode64)
                         <br><br>

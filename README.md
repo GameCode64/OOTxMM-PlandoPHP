@@ -2,8 +2,7 @@
 
 
 
-## All credits for the randomizer project it self goes to [NAX](https://github.com/Nax). 
-## I'm just someone who wanted to add a plandomizer function 😉
+## All credits for the randomizer project it self goes to [NAX](https://github.com/Nax). <br>I'm just someone who wanted to add a plandomizer function 😉
 
 <br><br>
 
@@ -14,10 +13,10 @@ here are some things you need to keep in mind:
 
 
 you can currently only use this plando with my branch untill it is implemented in the web interface</b><br>
-				<a href="https://github.com/GameCode64/MMOOTr/tree/plandov1" target="_blank">https://github.com/GameCode64/MMOOTr/tree/plandov1</a>
+				[https://github.com/GameCode64/MMOOTr/tree/plandov1](https://github.com/GameCode64/MMOOTr/tree/plandov1)
 <ul>
 					<li>
-						You need to run the randomizer with the generated "plando.json" in its rootfolder. And create a "config.yml" file with the lines below (and change it accordingly to your <u>plando</u> and your whishes:<br>then run the randomizer with "npm run start:debug"
+						You need to run the randomizer with the generated "plando.json" in its rootfolder. And create a "config.yml" file with the lines below (and change it accordingly to your <u>plando</u> and your whishes):<br>then run the randomizer with "npm run start:debug"
 						<div style="border: 1px #000000 solid; padding: 15px;">
 							songs: anywhere
 							<br>goldSkulltulaTokens: anywhere
@@ -94,7 +93,7 @@ you can currently only use this plando with my branch untill it is implemented i
 
 - run composer install in the directory
 
-- run php artisan migrate
+- ~~run php artisan migrate~~
 
 - run php artisan serve
 
